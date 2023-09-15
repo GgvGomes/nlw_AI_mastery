@@ -15,7 +15,7 @@ import { Slider } from "./components/ui/slider";
 export function App() {
   return (
     <div className="min-h-screen flex flex-col">
-      <div className="px-6 py-3 flex items-center justify-between border-b">
+      <div className="px-6 py-2 flex items-center justify-between border-b">
         <h1 className="text-xl font-bold">Upload.ai</h1>
 
         <div className="flex items-center gap-3">
@@ -54,7 +54,7 @@ export function App() {
         </div>
 
         <aside className="w-80 space-y-6">
-          <form className="space-y-6">
+          <form className="space-y-4">
             <label
               htmlFor="video"
               className="border flex rounded-md aspect-video cursor-pointer border-dashed text-sm flex-col gap-2 items-center justify-center text-muted-foreground hover:bg-primary/5">
@@ -82,7 +82,7 @@ export function App() {
 
           <Separator />
 
-          <form className="space-y-6">
+          <form className="space-y-5">
             <div className="space-y-2">
               <Label>Prompt</Label>
               <Select>
