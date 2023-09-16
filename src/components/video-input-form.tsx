@@ -17,7 +17,11 @@ const statusMessages = {
   sucess: "Sucesso!",
 };
 
-export function VideoInputForm() {
+interface VideoInputFormProps {
+  onVideoUploaded: (videoId: string) => void;
+}
+
+export function VideoInputForm({ onVideoUploaded }: VideoInputFormProps) {
   const [videoFile, setVideoFile] = useState<File | null>(null);
   const [status, setStatus] = useState<Status>("waiting");
   const promptInputRef = useRef<HTMLTextAreaElement>(null);
@@ -104,6 +108,8 @@ export function VideoInputForm() {
 
     console.log("Finalizou");
     setStatus("sucess");
+
+    onVideoUploaded(videoId);
   }
 
   return (
@@ -146,11 +152,11 @@ export function VideoInputForm() {
         />
       </div>
 
-      <Button 
-      data-sucess={status == "sucess"}
-      disabled={status != "waiting"} 
-      type="submit" 
-      className="w-full data-[sucess=true]:bg-emerald-500">
+      <Button
+        data-sucess={status == "sucess"}
+        disabled={status != "waiting"}
+        type="submit"
+        className="w-full data-[sucess=true]:bg-emerald-500">
         {status == "waiting" ? (
           <>
             Carregar vídeo <Upload className="w-4 h-4 ml-2" />
