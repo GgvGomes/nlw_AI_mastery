@@ -27,13 +27,14 @@ export function App() {
   // }
 
   const { input, setInput, handleInputChange, handleSubmit, completion, isLoading } = useCompletion({
-    api: "http://localhost:3000/api/complete",
+    api: "http://localhost:3333/ai/complete",
     body: {
       videoId,
       temperature,
     },
     headers: {
       "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "*"
     }
   });
 

@@ -110,6 +110,8 @@ export function VideoInputForm({ onVideoUploaded }: VideoInputFormProps) {
     setStatus("sucess");
 
     onVideoUploaded(videoId);
+
+    setStatus("waiting");
   }
 
   return (
