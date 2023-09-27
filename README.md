@@ -1,27 +1,48 @@
-# React + TypeScript + Vite
+## Shorts transcription
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This app is built with Next.js 13, Tailwind, shadcn/ui, fastify, ffmpeg, openAI and prisma.
 
-Currently, two official plugins are available:
+![image](https://github.com/GgvGomes/nlw_AI_mastery/assets/80273727/dfd08c1a-5476-4471-8f49-f8d39685668a)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## Description
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+<p>🚀 This application was created to test some Artificial Intelligence APIs, especially the OpenAI API<p>
+<p>📱 This application does not yet have its mobile version.<p>
+<br/><br/>
 
-- Configure the top-level `parserOptions` property like this:
+<h1 align="center">
+    <a href="https://pt-br.reactjs.org/">🔗 How to use</a>
+</h1>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+💻 First, select a video that is already downloaded on your computer. <br/>
+🧾 Then write down some important things that are contained in the video so that the Artificial Intelligence can perform a good transcription. Then click the "Carregar vídeo" button. <br/>
+The upload status will be displayed on the button, it will be finished as soon as it returns to the initial state. <br/>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+![image](https://github.com/GgvGomes/nlw_AI_mastery/assets/80273727/39f4c029-e0c2-47f0-aff4-b955e32592e0)
+
+
+To perform the transcription, select a prompt, or write your own. Select a temperature (the closer to 0 the translation will be more accurate).
+
+
+![image](https://github.com/GgvGomes/nlw_AI_mastery/assets/80273727/56f07015-bfb9-44d3-bc6f-1e2f159e97fa)
+
+
+Ready, you will see the Artificial Intelligence response in the bottom square.
+
+
+<p align="center">
+ <a href="#objetivo">NLW</a> •
+ <a href="#roadmap">React</a> • 
+ <a href="#tecnologias">IA</a> • 
+ <a href="#contribuicao">Fullstack</a> • 
+ <a href="#licenc-a">ShadcnUI</a> • 
+ <a href="#licenc-a">OpenAI</a> • 
+ <a href="#autor">Gomes</a>
+</p>
+
+<br/><br/>
+<h4 align="center"> 
+	🚧  React Application 🚀 Em construção...  🚧
+</h4>
