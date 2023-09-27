@@ -19,8 +19,9 @@ This app is built with Next.js 13, Tailwind, shadcn/ui, fastify, ffmpeg, openAI 
 🧾 Then write down some important things that are contained in the video so that the Artificial Intelligence can perform a good transcription. Then click the "Carregar vídeo" button. <br/>
 The upload status will be displayed on the button, it will be finished as soon as it returns to the initial state. <br/>
 
-
+<center>	
 ![image](https://github.com/GgvGomes/nlw_AI_mastery/assets/80273727/39f4c029-e0c2-47f0-aff4-b955e32592e0)
+</center>
 
 
 To perform the transcription, select a prompt, or write your own. Select a temperature (the closer to 0 the translation will be more accurate).
