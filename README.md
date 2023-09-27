@@ -20,7 +20,9 @@ This app is built with Next.js 13, Tailwind, shadcn/ui, fastify, ffmpeg, openAI 
 The upload status will be displayed on the button, it will be finished as soon as it returns to the initial state. <br/>
 
 
-![image](https://github.com/GgvGomes/nlw_AI_mastery/assets/80273727/39f4c029-e0c2-47f0-aff4-b955e32592e0)
+<div style="width:100%; display: grid; justify-content: center;"> 
+	<img src="https://github.com/GgvGomes/nlw_AI_mastery/assets/80273727/39f4c029-e0c2-47f0-aff4-b955e32592e0">
+</div>
 
 
 
